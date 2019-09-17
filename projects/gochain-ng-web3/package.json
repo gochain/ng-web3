@@ -1,0 +1,11 @@
+{
+  "name": "gochain-ng-web3",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.0",
+    "@angular/core": "^8.2.0"
+  },
+  "dependencies": {
+    "web3": "^1.2.1"
+  }
+}
