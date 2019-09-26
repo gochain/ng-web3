@@ -82,7 +82,7 @@ export class GochainNgWeb3Service implements IGochainWeb3Service {
     }
     this.gochainWeb3 = new Web3(new Web3.providers.HttpProvider(config.rpcUrl), null, {transactionConfirmationBlocks: 1});
 
-    return fromPromise(this.web3.eth.net.getId()).pipe(
+    return fromPromise(this.gochainWeb3.eth.net.getId()).pipe(
       catchError((e: Error) => {
         return throwError('Can\'t get GoChain network id');
       }),
