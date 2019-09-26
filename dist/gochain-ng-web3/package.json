@@ -1,0 +1,22 @@
+{
+  "name": "gochain-ng-web3",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.8",
+    "@angular/core": "^8.2.8"
+  },
+  "dependencies": {
+    "web3": "^2.0.0-alpha.1",
+    "tslib": "^1.9.0"
+  },
+  "main": "bundles/gochain-ng-web3.umd.js",
+  "module": "fesm5/gochain-ng-web3.js",
+  "es2015": "fesm2015/gochain-ng-web3.js",
+  "esm5": "esm5/gochain-ng-web3.js",
+  "esm2015": "esm2015/gochain-ng-web3.js",
+  "fesm5": "fesm5/gochain-ng-web3.js",
+  "fesm2015": "fesm2015/gochain-ng-web3.js",
+  "typings": "gochain-ng-web3.d.ts",
+  "metadata": "gochain-ng-web3.metadata.json",
+  "sideEffects": false
+}
