@@ -3,5 +3,6 @@
   "dest": "../../dist/gochain-ng-web3",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "whitelistedNonPeerDependencies": ["web3"]
 }

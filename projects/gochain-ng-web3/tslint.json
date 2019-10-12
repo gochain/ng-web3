@@ -12,6 +12,7 @@
       "element",
       "go",
       "kebab-case"
-    ]
+    ],
+    "variable-name": false
   }
 }
